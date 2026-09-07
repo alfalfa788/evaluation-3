@@ -1,0 +1,31 @@
+{
+    "task": {
+        "path": "evaluation-task"
+    },
+    "trial_name": "evaluation-task__EQr5yQ5",
+    "trials_dir": "jobs/task",
+    "agent": {
+        "name": "opencode",
+        "model_name": "google/keats",
+        "kwargs": {
+            "version": "1.18.18",
+            "opencode_config": {
+                "provider": {
+                    "google": {
+                        "options": {
+                            "baseURL": "https://app-llmproxy.dataannotation.tech/api/llm_proxy/gemini/v1beta"
+                        }
+                    }
+                }
+            }
+        },
+        "env": {
+            "GEMINI_API_BASE": "https://app-llmproxy.dataannotation.tech/api/llm_proxy/gemini/v1beta",
+            "GOOGLE_BASE_URL": "https://app-llmproxy.dataannotation.tech/api/llm_proxy/gemini/v1beta",
+            "GOOGLE_GENERATIVE_AI_API_KEY": "${GEMINI_API_KEY}",
+            "OPENCODE_DISABLE_AUTOUPDATE": "true",
+            "OPENCODE_DISABLE_TERMINAL_TITLE": "true"
+        }
+    },
+    "job_id": "522f9609-3e48-49bb-9fa0-76854a2a37dd"
+}

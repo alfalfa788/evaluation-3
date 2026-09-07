@@ -1,0 +1,302 @@
+timestamp=2026-09-07T02:19:30.018Z level=INFO run=2f58f146 message="creating instance" directory=/app
+timestamp=2026-09-07T02:19:30.019Z level=INFO run=2f58f146 message=fromDirectory directory=/app
+timestamp=2026-09-07T02:19:30.154Z level=INFO run=2f58f146 message=bootstrapping directory=/app
+timestamp=2026-09-07T02:19:30.160Z level=INFO run=2f58f146 message=loading path=/root/.config/opencode/config.json
+timestamp=2026-09-07T02:19:30.161Z level=INFO run=2f58f146 message=loading path=/root/.config/opencode/opencode.json
+timestamp=2026-09-07T02:19:30.166Z level=INFO run=2f58f146 message=loading path=/root/.config/opencode/opencode.jsonc
+timestamp=2026-09-07T02:19:30.391Z level=INFO run=2f58f146 message="all LSPs are disabled"
+timestamp=2026-09-07T02:19:30.393Z level=INFO run=2f58f146 message="all formatters are disabled"
+timestamp=2026-09-07T02:19:30.393Z level=INFO run=2f58f146 message=init
+timestamp=2026-09-07T02:19:30.628Z level=INFO run=2f58f146 message=created id=ses_f8656223bffeD3dPw3uPxq2lU9 slug=silent-island version=1.18.18 projectID=e3d7c1f6cf9a41e34614d996a23c3357314a4f00 directory=/app path="" workspaceID=undefined parentID=undefined title="New session - 2026-09-07T02:19:30.628Z" agent=undefined model=undefined metadata=undefined permission="[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]" cost=0 tokens.input=0 tokens.output=0 tokens.reasoning=0 tokens.cache.read=0 tokens.cache.write=0 time.created=1788747570628 time.updated=1788747570628
+timestamp=2026-09-07T02:19:30.645Z level=INFO run=2f58f146 message="event connected"
+timestamp=2026-09-07T02:19:31.333Z level=ERROR run=2f58f146 message="Failed to fetch models.dev" cause="Cause([Fail(HttpClientError: Transport error (GET https://models.opencode.ai/api.json) (cause: Error: unknown certificate verification error))])"
+timestamp=2026-09-07T02:19:31.420Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=0
+timestamp=2026-09-07T02:19:31.449Z level=INFO run=2f58f146 message=stream providerID=google modelID=gemini-3.6-flash session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=true agent=title mode=primary
+timestamp=2026-09-07T02:19:31.467Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=gemini-3.6-flash
+timestamp=2026-09-07T02:19:31.557Z level=INFO run=2f58f146 message=initialized
+timestamp=2026-09-07T02:19:31.626Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:31.636Z level=INFO run=2f58f146 message="shell tool using shell" shell=/usr/bin/bash
+timestamp=2026-09-07T02:19:31.647Z level=INFO run=2f58f146 message=init count=1
+timestamp=2026-09-07T02:19:31.795Z level=INFO run=2f58f146 message="watcher backend" directory=/app platform=linux backend=inotify
+timestamp=2026-09-07T02:19:31.825Z level=INFO run=2f58f146 message="project copy refresh started" projectID=e3d7c1f6cf9a41e34614d996a23c3357314a4f00
+timestamp=2026-09-07T02:19:32.384Z level=ERROR run=2f58f146 message="stream error" providerID=google modelID=gemini-3.6-flash session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=true agent=title mode=primary error.error="AI_APICallError: LlmProxy::Error: This project is not granted access to the requested model"
+timestamp=2026-09-07T02:19:32.709Z level=INFO run=2f58f146 message="project copy refresh done" projectID=e3d7c1f6cf9a41e34614d996a23c3357314a4f00 updated=[] removed=[]
+timestamp=2026-09-07T02:19:32.738Z level=INFO run=2f58f146 message="booting location services" directory=/app workspaceID=undefined
+timestamp=2026-09-07T02:19:32.766Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079a9e0e2001gfBblSXe74I394
+timestamp=2026-09-07T02:19:32.768Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:19:32.775Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:19:35.135Z level=INFO run=2f58f146 message=evaluated permission=glob pattern=**/* action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:19:35.149Z level=INFO run=2f58f146 message="downloading ripgrep" url=https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-x86_64-unknown-linux-musl.tar.gz
+timestamp=2026-09-07T02:19:35.238Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:35.279Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=1
+timestamp=2026-09-07T02:19:35.325Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:35.344Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079a9eff2001aUOO4WLaWp6Mf5
+timestamp=2026-09-07T02:19:35.344Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:19:35.348Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:19:37.271Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="ls -la" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:19:37.342Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:37.399Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=2
+timestamp=2026-09-07T02:19:37.433Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:37.440Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079a9f839001PyVOYlRgEYoOD2
+timestamp=2026-09-07T02:19:37.441Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:19:37.449Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:19:39.841Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="git status" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:19:39.841Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="git log --oneline -5" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:19:39.904Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:39.943Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=3
+timestamp=2026-09-07T02:19:39.980Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:39.985Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079aa022a001Hco2heg9K5Cpw5
+timestamp=2026-09-07T02:19:39.986Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:19:39.989Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:19:42.068Z level=INFO run=2f58f146 message=evaluated permission=read pattern=.gitignore action.permission=read action.pattern=* action.action=allow
+timestamp=2026-09-07T02:19:42.082Z level=INFO run=2f58f146 message="touching file" file=/app/.gitignore
+timestamp=2026-09-07T02:19:42.099Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:42.122Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=4
+timestamp=2026-09-07T02:19:42.152Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:42.160Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079aa0aab001nzs9e0RmR1E0cq
+timestamp=2026-09-07T02:19:42.161Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:19:42.174Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:19:44.688Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="find . -maxdepth 3 -not -path '*/.*'" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:19:44.740Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:44.766Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=5
+timestamp=2026-09-07T02:19:44.803Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:44.828Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079aa14ff001jMaurd0YGgXCvA
+timestamp=2026-09-07T02:19:44.829Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:19:44.838Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:19:47.098Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="git log --all --stat" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:19:47.154Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:47.175Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=6
+timestamp=2026-09-07T02:19:47.214Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:47.228Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079aa1e69001vR0LlQrBwcXBlm
+timestamp=2026-09-07T02:19:47.229Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:19:47.233Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:19:50.702Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="find / -name \"input_signal.csv\" 2>/dev/null" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:19:50.887Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:50.912Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=7
+timestamp=2026-09-07T02:19:50.946Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:50.962Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079aa2d01001zVo2fgKDzr2PKj
+timestamp=2026-09-07T02:19:50.962Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:19:50.965Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:19:55.725Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="python3 -c \"import numpy, pandas, scipy, matplotlib; print('all installed')\"" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:19:55.774Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:55.795Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=8
+timestamp=2026-09-07T02:19:55.828Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:55.833Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079aa40150010a48hLcc0C1SV1
+timestamp=2026-09-07T02:19:55.834Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:19:55.839Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:19:58.343Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="which python" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:19:58.343Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="which python3" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:19:58.343Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="which pip" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:19:58.343Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="which pip3" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:19:58.343Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="find / -name \"pytest\" 2>/dev/null" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:19:58.343Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="find / -name \"numpy\" 2>/dev/null" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:19:58.568Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:58.600Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=9
+timestamp=2026-09-07T02:19:58.629Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:19:58.642Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079aa4b0b001VXX0RsdwAvJxC8
+timestamp=2026-09-07T02:19:58.643Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:19:58.645Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:20:01.079Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="pip list" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:20:01.409Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:01.431Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=10
+timestamp=2026-09-07T02:20:01.453Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:01.464Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079aa5619001iSnCDF38B3aYTx
+timestamp=2026-09-07T02:20:01.466Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:20:01.467Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:20:04.892Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="pip install numpy pandas scipy matplotlib" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:20:12.989Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:13.013Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=11
+timestamp=2026-09-07T02:20:13.034Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:13.037Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079aa83560011gURR676Egsk01
+timestamp=2026-09-07T02:20:13.037Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:20:13.047Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:20:15.667Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="find / -name \"*site-packages*\" -o -name \"*dist-packages*\" -o -name \"*.whl\" -o -name \"*cache*\" 2>/dev/null" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:20:15.814Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:15.854Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=12
+timestamp=2026-09-07T02:20:15.893Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:15.900Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079aa8e700016BASaGu2j6GeXu
+timestamp=2026-09-07T02:20:15.901Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:20:15.907Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:20:19.043Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="find / -name \"*numpy*\" -o -name \"*scipy*\" -o -name \"*pandas*\" -o -name \"*matplotlib*\" 2>/dev/null" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:20:19.175Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:19.214Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=13
+timestamp=2026-09-07T02:20:19.237Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:19.251Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079aa9b90001nsMaWsio24URJl
+timestamp=2026-09-07T02:20:19.251Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:20:19.253Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:20:22.810Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org numpy pandas scipy matplotlib" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:20:30.551Z level=INFO run=2f58f146 message=cleanup prune=7.days
+timestamp=2026-09-07T02:20:31.170Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:31.221Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=14
+timestamp=2026-09-07T02:20:31.281Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:31.288Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079aaca79001pjc94aqtw0C2Rl
+timestamp=2026-09-07T02:20:31.290Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:20:31.293Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:20:34.078Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="pip install --index-url http://pypi.org/simple --trusted-host pypi.org numpy pandas scipy matplotlib" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:20:41.505Z level=WARN run=2f58f146 message="background dependency install failed" dir=/root/.config/opencode error="Cause([Fail(NpmInstallFailedError (cause: FetchError: request to https://registry.npmjs.org/@opencode-ai%2fplugin failed, reason: unknown certificate verification error))])"
+timestamp=2026-09-07T02:20:42.184Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:42.239Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=15
+timestamp=2026-09-07T02:20:42.272Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:42.279Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079aaf582001PDdZIcIOrxp4Cm
+timestamp=2026-09-07T02:20:42.280Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:20:42.283Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:20:45.917Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="find / -name \"pyvenv.cfg\" -o -name \"conda*\" -o -name \"*poetry*\" -o -name \"*uv*\" 2>/dev/null" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:20:46.036Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:46.077Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=16
+timestamp=2026-09-07T02:20:46.115Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:46.122Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079ab047f001Ypen01gjLT6nUt
+timestamp=2026-09-07T02:20:46.123Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:20:46.125Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:20:48.611Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="find / -name \"*.whl\" -o -name \"*.tar.gz\" 2>/dev/null" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:20:48.738Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:48.770Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=17
+timestamp=2026-09-07T02:20:48.792Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:48.804Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079ab0f05001YbDyaXR9XoiLob
+timestamp=2026-09-07T02:20:48.805Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:20:48.807Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:20:51.377Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="ls -la /var/cache/apt/archives/" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:20:51.377Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="apt-cache search python3-numpy" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:20:51.461Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:51.498Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=18
+timestamp=2026-09-07T02:20:51.536Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:51.557Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079ab19ac001yOTMkBdrDXsQEX
+timestamp=2026-09-07T02:20:51.558Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:20:51.571Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:20:54.081Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="dpkg -l" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:20:54.081Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="grep python" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:20:54.081Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="find / -name \"*site-packages*\"" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:20:54.216Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:54.259Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=19
+timestamp=2026-09-07T02:20:54.284Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:54.298Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079ab2475001wysgv2cwYmE1ea
+timestamp=2026-09-07T02:20:54.299Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:20:54.301Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:20:56.885Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="ls -la /var/lib/apt/lists/" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:20:56.982Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:57.033Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=20
+timestamp=2026-09-07T02:20:57.167Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:20:57.190Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079ab2f4c001aSuqiBhtFEY6V6
+timestamp=2026-09-07T02:20:57.193Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:20:57.202Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:21:00.359Z level=INFO run=2f58f146 message=evaluated permission=bash pattern=env action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:21:00.359Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="pip config list" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:21:00.630Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:21:00.665Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=21
+timestamp=2026-09-07T02:21:00.697Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:21:00.703Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079ab3d7b001n2vCXHGdc3Qvwy
+timestamp=2026-09-07T02:21:00.704Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:21:00.706Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:21:03.843Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="ls -la /root/.cache" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:21:03.882Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:21:03.917Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=22
+timestamp=2026-09-07T02:21:03.958Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:21:03.972Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079ab4a30001mmnbzgpOwe7e62
+timestamp=2026-09-07T02:21:03.973Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:21:03.976Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:21:37.233Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="find / -name \"*python*\" -o -name \"*conda*\" -o -name \"*venv*\" 2>/dev/null" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:21:37.233Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="grep -v \"/proc\"" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:21:37.234Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="grep -v \"/sys\"" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:21:37.234Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="head -n 50" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:21:37.445Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:21:37.472Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=23
+timestamp=2026-09-07T02:21:37.510Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:21:37.514Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079abcd46001bGnZ4yLcDBeQrA
+timestamp=2026-09-07T02:21:37.515Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:21:37.517Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:21:40.641Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="which ruff flake8 mypy pytest 2>/dev/null" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:21:40.698Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:21:40.724Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=24
+timestamp=2026-09-07T02:21:40.758Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:21:40.762Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079abd9f6001XEtqBX1SWTvuzk
+timestamp=2026-09-07T02:21:40.763Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:21:40.765Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:21:46.333Z level=INFO run=2f58f146 message=evaluated permission=todowrite pattern=* action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:21:46.358Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:21:46.417Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=25
+timestamp=2026-09-07T02:21:46.476Z level=INFO run=2f58f146 message=tracking hash=46dec9a87520c55e6f91dd6d124e78a81e9628a0 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:21:46.493Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079abf035001sRxsxR6w9lopQE
+timestamp=2026-09-07T02:21:46.494Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:21:46.497Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:22:32.424Z level=INFO run=2f58f146 message=evaluated permission=edit pattern=signal_analysis.py action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:22:32.426Z level=INFO run=2f58f146 message=formatting file=/app/signal_analysis.py
+timestamp=2026-09-07T02:22:32.427Z level=INFO run=2f58f146 message="touching file" file=/app/signal_analysis.py
+timestamp=2026-09-07T02:22:32.483Z level=INFO run=2f58f146 message=tracking hash=b9339b1ae6f70744919fd9bb105d859ee4336072 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:22:32.510Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=26
+timestamp=2026-09-07T02:22:32.538Z level=INFO run=2f58f146 message=tracking hash=b9339b1ae6f70744919fd9bb105d859ee4336072 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:22:32.553Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079aca440001as0hgSb7eQSWDv
+timestamp=2026-09-07T02:22:32.554Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:22:32.557Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:22:35.190Z level=INFO run=2f58f146 message="resolved path" arg=signal_analysis.py resolved=/app/signal_analysis.py
+timestamp=2026-09-07T02:22:35.191Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="chmod +x signal_analysis.py" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:22:35.191Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="python3 -m py_compile signal_analysis.py" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:22:35.320Z level=INFO run=2f58f146 message=tracking hash=55bad1b607f08c78ec1ae4b6c00e71b5f80021a2 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:22:35.361Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=27
+timestamp=2026-09-07T02:22:35.419Z level=INFO run=2f58f146 message=tracking hash=55bad1b607f08c78ec1ae4b6c00e71b5f80021a2 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:22:35.438Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079acaf64001kuDbUfBFzvoAAC
+timestamp=2026-09-07T02:22:35.439Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:22:35.441Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:22:53.689Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="python3 -c '\nimport os, csv, math\nos.makedirs(\"data\", exist_ok=True)\nwith open(\"data/input_signal.csv\", \"w\", newline=\"\") as f:\n    writer = csv.writer(f)\n    writer.writerow([\"time\", \"amplitude\"])\n    fs = 500.0\n    for i in range(2500):\n        t = i / fs\n        amp = 1.5 + 2.0 * math.sin(2 * math.pi * 5.0 * t) + 0.8 * math.sin(2 * math.pi * 50.0 * t)\n        writer.writerow([f\"{t:.4f}\", f\"{amp:.6f}\"])\nprint(\"Generated data/input_signal.csv with 2500 samples.\")\n'" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:22:53.689Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="head -n 10 data/input_signal.csv" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:22:53.689Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="tail -n 5 data/input_signal.csv" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:22:53.775Z level=INFO run=2f58f146 message=tracking hash=aa23293f062fbfc68e185a78a2da1583e09ba133 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:22:53.801Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=28
+timestamp=2026-09-07T02:22:53.835Z level=INFO run=2f58f146 message=tracking hash=aa23293f062fbfc68e185a78a2da1583e09ba133 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:22:53.840Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079acf76c001H4dxcMUMCtVpwZ
+timestamp=2026-09-07T02:22:53.841Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:22:53.842Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:23:03.687Z level=INFO run=2f58f146 message=evaluated permission=todowrite pattern=* action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:23:03.713Z level=INFO run=2f58f146 message=tracking hash=aa23293f062fbfc68e185a78a2da1583e09ba133 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:23:03.741Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=29
+timestamp=2026-09-07T02:23:03.791Z level=INFO run=2f58f146 message=tracking hash=aa23293f062fbfc68e185a78a2da1583e09ba133 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:23:03.809Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079ad1e41001xYrsA1YQUnbQnz
+timestamp=2026-09-07T02:23:03.810Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:23:03.813Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:23:07.533Z level=INFO run=2f58f146 message=evaluated permission=edit pattern=requirements.txt action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:23:07.534Z level=INFO run=2f58f146 message=formatting file=/app/requirements.txt
+timestamp=2026-09-07T02:23:07.536Z level=INFO run=2f58f146 message="touching file" file=/app/requirements.txt
+timestamp=2026-09-07T02:23:07.599Z level=INFO run=2f58f146 message=tracking hash=8a1398cf37c4bd1327bc0cdff701ac9672ac9690 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:23:07.641Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=30
+timestamp=2026-09-07T02:23:07.683Z level=INFO run=2f58f146 message=tracking hash=8a1398cf37c4bd1327bc0cdff701ac9672ac9690 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:23:07.708Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079ad2d7d0011Ypo6KCK9MatTl
+timestamp=2026-09-07T02:23:07.709Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:23:07.719Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:23:12.899Z level=INFO run=2f58f146 message=evaluated permission=todowrite pattern=* action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:23:12.923Z level=INFO run=2f58f146 message=tracking hash=8a1398cf37c4bd1327bc0cdff701ac9672ac9690 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:23:12.964Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=31
+timestamp=2026-09-07T02:23:13.000Z level=INFO run=2f58f146 message=tracking hash=8a1398cf37c4bd1327bc0cdff701ac9672ac9690 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:23:13.006Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079ad4248001dPLbWYRbrWYlxT
+timestamp=2026-09-07T02:23:13.007Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:23:13.008Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:23:18.577Z level=INFO run=2f58f146 message=evaluated permission=edit pattern=README.md action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:23:18.577Z level=INFO run=2f58f146 message=formatting file=/app/README.md
+timestamp=2026-09-07T02:23:18.578Z level=INFO run=2f58f146 message="touching file" file=/app/README.md
+timestamp=2026-09-07T02:23:18.627Z level=INFO run=2f58f146 message=tracking hash=8d10279527359b0b534bd70e468aec3586a50734 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:23:18.741Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=32
+timestamp=2026-09-07T02:23:18.787Z level=INFO run=2f58f146 message=tracking hash=8d10279527359b0b534bd70e468aec3586a50734 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:23:18.794Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079ad58dc001NxV5UUpfQMqcJa
+timestamp=2026-09-07T02:23:18.795Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:23:18.816Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:23:21.780Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="git status" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:23:21.780Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="ls -la" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:23:21.840Z level=INFO run=2f58f146 message=tracking hash=8d10279527359b0b534bd70e468aec3586a50734 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:23:21.882Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=33
+timestamp=2026-09-07T02:23:21.910Z level=INFO run=2f58f146 message=tracking hash=8d10279527359b0b534bd70e468aec3586a50734 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:23:21.923Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079ad651f001C6rEzy0yVwuI5u
+timestamp=2026-09-07T02:23:21.924Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:23:21.926Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:23:25.002Z level=INFO run=2f58f146 message="resolved path" arg=__pycache__ resolved=/app/__pycache__
+timestamp=2026-09-07T02:23:25.003Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="rm -rf __pycache__" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:23:25.003Z level=INFO run=2f58f146 message=evaluated permission=bash pattern="git status" action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:23:25.073Z level=INFO run=2f58f146 message=tracking hash=8d10279527359b0b534bd70e468aec3586a50734 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:23:25.100Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=34
+timestamp=2026-09-07T02:23:25.138Z level=INFO run=2f58f146 message=tracking hash=8d10279527359b0b534bd70e468aec3586a50734 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:23:25.144Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079ad71b1001rSCRHApfK7BQMY
+timestamp=2026-09-07T02:23:25.145Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:23:25.147Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats
+timestamp=2026-09-07T02:23:27.924Z level=INFO run=2f58f146 message=evaluated permission=todowrite pattern=* action.permission=* action.action=allow action.pattern=*
+timestamp=2026-09-07T02:23:27.941Z level=INFO run=2f58f146 message=tracking hash=8d10279527359b0b534bd70e468aec3586a50734 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:23:27.974Z level=INFO run=2f58f146 message=loop session.id=ses_f8656223bffeD3dPw3uPxq2lU9 step=35
+timestamp=2026-09-07T02:23:28.019Z level=INFO run=2f58f146 message=tracking hash=8d10279527359b0b534bd70e468aec3586a50734 cwd=/app git=/logs/agent/opencode/xdg-data/opencode/snapshot/e3d7c1f6cf9a41e34614d996a23c3357314a4f00/0c35eebf403cf91fe77a64921d76aa1ca6411d20
+timestamp=2026-09-07T02:23:28.025Z level=INFO run=2f58f146 message=process session.id=ses_f8656223bffeD3dPw3uPxq2lU9 messageID=msg_079ad7cea001O2rYPlYfhA3eRa
+timestamp=2026-09-07T02:23:28.026Z level=INFO run=2f58f146 message=stream providerID=google modelID=keats session.id=ses_f8656223bffeD3dPw3uPxq2lU9 small=false agent=build mode=primary
+timestamp=2026-09-07T02:23:28.037Z level=INFO run=2f58f146 message="llm runtime selected" llm.runtime=ai-sdk llm.provider=google llm.model=keats

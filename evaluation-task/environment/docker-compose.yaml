@@ -1,0 +1,8 @@
+services:
+  main:
+    platform: linux/amd64
+    # harbor's long-syntax bind mounts ignore :z relabeling, so the container
+    # sees blank mounts. Affects SELinux in enforcing mode (the default on the
+    # RHEL family e.g. Fedora, RHEL, CentOS Stream, Rocky, AlmaLinux, Oracle Linux).
+    security_opt:
+      - label=disable

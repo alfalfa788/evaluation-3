@@ -1,0 +1,32 @@
+[metadata]
+task_id = "evaluation-task"
+difficulty = "unrated"
+description = "Implementation of a Python script that loads the signal from data/input_signal.csv, where the columns are time and amplitude."
+category = "programming"
+tags = ["python", "filter", "signal"]
+
+[verifier]
+timeout_sec = 900.0
+network_mode = "no-network"
+
+[agent]
+timeout_sec = 3600.0
+network_mode = "allowlist"
+allowed_hosts = ["app-llmproxy.dataannotation.tech"]
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 2
+memory_mb = 4096
+storage_mb = 10240
+network_mode = "public"
+
+# Capture only the model patch. Keeping it outside /logs/artifacts prevents Harbor's
+# conventional directory collection from creating a second nested copy.
+[[verifier.collect]]
+service = "main"
+command = "git config --global --add safe.directory /app; git -C /app add -A; git -C /app diff v0.1.0-init > /tmp/patch.diff 2>/dev/null; true"
+
+[[artifacts]]
+source = "/tmp/patch.diff"
+destination = "patch.diff"

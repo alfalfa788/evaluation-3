@@ -1,0 +1,57 @@
+{
+    "id": "522f9609-3e48-49bb-9fa0-76854a2a37dd",
+    "started_at": "2026-09-07T03:17:17.791802",
+    "updated_at": "2026-09-07T03:24:28.659358",
+    "finished_at": "2026-09-07T03:24:28.659358",
+    "n_total_trials": 2,
+    "stats": {
+        "n_completed_trials": 2,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "opencode__selene__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "evaluation-task__uk8Avg3"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            },
+            "opencode__keats__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "evaluation-task__EQr5yQ5"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 4336505,
+        "n_cache_tokens": 3598317,
+        "n_output_tokens": 19000,
+        "cost_usd": null
+    }
+}

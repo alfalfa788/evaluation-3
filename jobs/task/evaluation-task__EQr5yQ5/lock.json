@@ -1,0 +1,53 @@
+{
+    "schema_version": 2,
+    "task": {
+        "name": "evaluation-task",
+        "type": "local",
+        "digest": "sha256:b2a9cb321617a9ac63f51a636cdb686e9d386037968f8aa5312434d0c7e5070b",
+        "path": "evaluation-task"
+    },
+    "install_only": false,
+    "timeout_multiplier": 1.0,
+    "agent": {
+        "name": "opencode",
+        "model_name": "google/keats",
+        "skills": [],
+        "resume_trajectory": false,
+        "extra_allowed_hosts": [],
+        "kwargs": {
+            "version": "1.18.18",
+            "opencode_config": {
+                "provider": {
+                    "google": {
+                        "options": {
+                            "baseURL": "https://app-llmproxy.dataannotation.tech/api/llm_proxy/gemini/v1beta"
+                        }
+                    }
+                }
+            }
+        },
+        "env": {
+            "GEMINI_API_BASE": "https://app-llmproxy.dataannotation.tech/api/llm_proxy/gemini/v1beta",
+            "GOOGLE_BASE_URL": "https://app-llmproxy.dataannotation.tech/api/llm_proxy/gemini/v1beta",
+            "GOOGLE_GENERATIVE_AI_API_KEY": "${GEMINI_API_KEY}",
+            "OPENCODE_DISABLE_AUTOUPDATE": "true",
+            "OPENCODE_DISABLE_TERMINAL_TITLE": "true"
+        },
+        "mcp_servers": []
+    },
+    "skills": [],
+    "environment": {
+        "type": "docker",
+        "force_build": false,
+        "delete": true,
+        "cpu_enforcement_policy": "auto",
+        "memory_enforcement_policy": "auto",
+        "extra_docker_compose": [],
+        "kwargs": {},
+        "extra_allowed_hosts": []
+    },
+    "verifier": {
+        "disable": false,
+        "environment_mode": "shared"
+    }
+}

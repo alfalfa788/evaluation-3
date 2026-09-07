@@ -1,0 +1,13 @@
+diff --git a/harbor/environments/docker/docker.py b/harbor/environments/docker/docker.py
+index d26e2de..d57e672 100644
+--- a/harbor/environments/docker/docker.py
++++ b/harbor/environments/docker/docker.py
+@@ -191,7 +191,7 @@ class DockerEnvironment(BaseEnvironment):
+                 startup_network_policy=startup_network_policy,
+                 phase_network_policies=phase_network_policies,
+             )
+-            and (sys.platform == "linux" or self._egress_control_kernel_support())
++            and self._egress_control_kernel_support()
+         )
+         super().__init__(
+             environment_dir=environment_dir,

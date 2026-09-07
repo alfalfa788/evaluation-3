@@ -1,0 +1,16 @@
+[
+  {
+    "source": "/logs/artifacts",
+    "destination": "artifacts/logs/artifacts",
+    "type": "directory",
+    "status": "empty",
+    "service": null
+  },
+  {
+    "source": "/tmp/patch.diff",
+    "destination": "artifacts/patch.diff",
+    "type": "file",
+    "status": "ok",
+    "service": null
+  }
+]
